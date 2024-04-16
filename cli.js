@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
-const dbHelpers = require('./dbHelpers');
+
+const dbhelp = require('./helpers/dbhelp');
 
 
 async function mainMenu() {
@@ -33,21 +34,21 @@ async function mainMenu() {
 
 
 async function viewDepartments() {
-  const departments = await dbHelpers.getAllDepartments();
+  const departments = await dbhelp.getAllDepartments();
   console.table(departments);
   mainMenu();
 }
 
 
 async function viewRoles() {
-  const roles = await dbHelpers.getAllRoles();
+  const roles = await dbhelp.getAllRoles();
   console.table(roles);
   mainMenu();
 }
 
 
 async function viewEmployees() {
-  const employees = await dbHelpers.getAllEmployees();
+  const employees = await dbhelp.getAllEmployees();
   console.table(employees);
   mainMenu();
 }
