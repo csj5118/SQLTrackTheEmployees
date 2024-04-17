@@ -38,6 +38,8 @@ upon using arrow keys and enter key, the user will be able to see the department
 
 ## Demonstration
 
+https://app.screencastify.com/v3/watch/Ot1l5prNCVZQbtBPrMpD
+
 ## Credits
 
 to the Instructors and Staff at Columbia University Coding Bootcamp
